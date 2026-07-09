@@ -1,0 +1,54 @@
+{
+  "name": "@gudlab/gud-api-mcp",
+  "version": "0.1.3",
+  "mcpName": "io.github.gudlab/gud-api-mcp",
+  "description": "Model Context Protocol server for Gud API — let AI coding agents (Claude Code, Cursor, Windsurf, Codex, Cline…) create, run, and save API requests and collections your team can open in any VS Code-compatible editor.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "publisher": "gudlab",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "api",
+    "rest",
+    "graphql",
+    "api-client",
+    "gud-api",
+    "ai-agent",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "codex",
+    "cline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gudlab/gud-api-mcp"
+  },
+  "bin": {
+    "gud-api-mcp": "./dist/server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0",
+    "vitest": "^4.1.3"
+  }
+}
