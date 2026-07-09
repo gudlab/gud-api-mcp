@@ -318,7 +318,7 @@ async function main() {
         `[gud-api mcp] It is now waiting for an MCP client to talk to it over stdin — nothing is broken.\n` +
         `[gud-api mcp] Configure it in Claude Code / Cursor / Windsurf instead of running it by hand:\n` +
         `[gud-api mcp]   { "mcpServers": { "gud-api": { "command": "npx", "args": ["-y", "@gudlab/gud-api-mcp", "--project", "."] } } }\n` +
-        `[gud-api mcp] Docs: https://gudapi.gudlab.org/docs/ai-agents  ·  Press Ctrl+C to exit.\n`,
+        `[gud-api mcp] Docs: https://gudapi-docs.gudlab.org/guide/ai-agents  ·  Press Ctrl+C to exit.\n`,
     );
   }
 }

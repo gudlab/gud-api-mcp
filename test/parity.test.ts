@@ -15,12 +15,7 @@ const CORE = path.resolve(here, "../src/core");
  *
  * collection.ts and cookieJar.ts are intentionally divergent (added examples /
  * in-memory reimplementation) and are excluded.
- *
- * This suite only runs inside the source monorepo, where the api-client package
- * is a sibling. In the standalone published repo that sibling is absent, so the
- * suite skips itself rather than failing.
  */
-const AC_PRESENT = fs.existsSync(AC);
 const IDENTICAL = [
   ["models/request.ts", "models/request.ts"],
   ["models/environment.ts", "models/environment.ts"],
@@ -31,7 +26,7 @@ const IDENTICAL = [
   ["services/httpClient.ts", "services/httpClient.ts"],
 ];
 
-describe.skipIf(!AC_PRESENT)("core parity with the extension", () => {
+describe("core parity with the extension", () => {
   for (const [acPath, corePath] of IDENTICAL) {
     it(`${corePath} matches api-client`, () => {
       const source = fs.readFileSync(path.join(AC, acPath), "utf-8");

@@ -289,7 +289,7 @@ is what makes them clickable and runnable.
 
 ## Learn more
 
-https://gudapi.gudlab.org/docs/ai-agents
+https://gudapi-docs.gudlab.org/guide/ai-agents
 
 _This file was generated automatically and is safe to delete or edit — it won't
 be recreated unless it's missing._

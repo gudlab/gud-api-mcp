@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────────────────
-// Shared with the Gud API editor extension, plus the additive `examples`
-// field below. See src/core/README.md.
+// MIRRORED from products/api-client/src/models — kept byte-identical except
+// for the additive `examples` field below. See src/core/README.md.
 // ─────────────────────────────────────────────────────────────────────────
 import { HttpRequest, TestAssertion, PreRequestAction, VariableExtraction } from "./request";
 import { EnvVariable } from "./environment";

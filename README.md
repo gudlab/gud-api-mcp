@@ -88,7 +88,7 @@ when the agent tested it.
 
 ## Links
 
-- Docs: <https://gudapi.gudlab.org/docs/ai-agents>
+- Docs: <https://gudapi-docs.gudlab.org/guide/ai-agents>
 - Gud API extension: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gudlab.gud-api) · [Open VSX](https://open-vsx.org/extension/gudlab/gud-api)
 - Issues: <https://github.com/gudlab/gud-api/issues>
 
