@@ -23,8 +23,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gudlab/gud-api"
+    "url": "git+https://github.com/gudlab/gud-api-mcp.git"
   },
+  "bugs": {
+    "url": "https://github.com/gudlab/gud-api/issues"
+  },
+  "homepage": "https://github.com/gudlab/gud-api-mcp#readme",
   "bin": {
     "gud-api-mcp": "./dist/server.js"
   },
