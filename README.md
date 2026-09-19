@@ -5,6 +5,11 @@ MCP-capable AI agent — **Claude Code, Cursor, Windsurf, Codex, Cline, Zed**, a
 others — **create, run, and save API requests and collections** as real Gud API
 files your team can open in any VS Code-compatible editor.
 
+**This repository is the public source for the MCP server.** The Gud API editor
+extension UI is proprietary. Report extension bugs at
+[gudlab/gud-api](https://github.com/gudlab/gud-api/issues). Keep using
+`npx @gudlab/gud-api-mcp` — this package stays public.
+
 When an agent builds an endpoint, it registers the request, runs it, and captures
 the response as an example. The collection is written to your project's
 `.gud-api/` folder — the same files the [Gud API extension](https://marketplace.visualstudio.com/items?itemName=gudlab.gud-api)
@@ -88,11 +93,13 @@ when the agent tested it.
 
 ## Links
 
-- Docs: <https://gudapi-docs.gudlab.org/guide/ai-agents>
+- Docs: <https://gudapi.gudlab.org/guide/ai-agents>
 - Gud API extension: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=gudlab.gud-api) · [Open VSX](https://open-vsx.org/extension/gudlab/gud-api)
-- Issues: <https://github.com/gudlab/gud-api/issues>
+- Extension issues (proprietary UI): <https://github.com/gudlab/gud-api/issues>
+- This server's source: <https://github.com/gudlab/gud-api-mcp>
 
 ## License
 
 Proprietary — see the LICENSE file. Free to install and use; redistribution and
-modification are restricted.
+modification are restricted. The editor UI is closed; this MCP package remains
+public on npm and GitHub.
